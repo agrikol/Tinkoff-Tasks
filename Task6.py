@@ -9,6 +9,5 @@ for i in range(int(input('Введите количество запросов: 
                 if s[j] ^ s[h] >= x:
                     x = s[j] ^ s[h]
         print(x) # Вывод xor
-        x = 0
     else:
         print(0)
